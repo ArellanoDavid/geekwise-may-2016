@@ -38,6 +38,25 @@ a:hover {
     color:#00b100;
 }
 
+figure {
+    padding: 25px;
+    background-color: #bdd378;
+    display: inline-block;
+    border-radius: 30px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+main {
+    width: 1200px;
+    overflow: hidden;
+    margin: 20px auto;
+}
 /* =========== HEADER STYLES ===========*/
 
 header {
@@ -51,6 +70,7 @@ header {
 #logoGraphic:hover {
     color:#FF7900;
 }
+
 /*=========== BANNER STYLES===========*/
 
 #banner {
@@ -65,5 +85,66 @@ header {
     color:#FFFFFF;
     font-size: 6em;
     text-align: center;
-    text-shadow: 6px 6px #000000;
+    text-shadow: 6px 6px 6px #000000;
 }
+
+/*============= NAVIGATION STYLES ==============*/
+
+#menu {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.currentPage {
+    color: #FF7900;
+}
+
+/*========== THREE COLUMNS STYLES ==========*/
+
+.column1, .column2, .column3 {
+    width: 384px;
+}
+
+.column1, .column2 {
+    float: left;
+    margin-right: 24px;
+}
+
+.column3 {
+    float: left;
+}
+
+.column1 h2, .column2 h2, .column3 h2 {
+    font-size: 4.5em;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.column1 p, .column2 p, .column3 p {
+    padding: 0px;
+    text-align: justify;
+}
+
+.column1 span, .column2 span, .column3 span {
+    background-color: #FF7900;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.75em;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: px;
+}
+/*
+1200px
+384px x 3 = 1152px
+24px x 2 = 48px
+
+total 1200px
+*/
