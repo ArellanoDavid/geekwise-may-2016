@@ -40,10 +40,12 @@ a:hover {
 
 figure {
     padding: 25px;
+    margin: 0px;
     background-color: #bdd378;
     display: inline-block;
     border-radius: 30px;
     text-shadow: 5px 5px 5px #000000;
+
 }
 
 figcaption {
@@ -139,7 +141,70 @@ header {
     font-size: 1.75em;
     text-align: center;
     padding: 15px 0px;
-    border-radius: px;
+    border-radius: 10px;
+}
+
+/*==========BUTTON STYLES============*/
+.button {
+    background-color: #FA2341;
+    border-radius: 8px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    /*position: center;*/
+}
+
+/*=========ABOUT ME SECTION==========*/
+
+.leftAside {
+    float: left;
+    width: 384px;
+    margin-right: 24px;
+}
+
+.rightAside {
+    float: right;
+    width: 384px;
+    margin-left: 24px;
+}
+
+.aboutMe {
+    float: right;
+    width: 754px;
+}
+
+.aboutMe p {
+    text-align: justify;
+}
+
+/*==========FOOTER STYLES==========*/
+footer {
+    height: 125px;
+    padding: 30px 0px;
+    border-top: dotted 4px #009A49;
+    text-align: center;
+    background-color: #C8E8C6;
+}
+
+footer p {
+    color: #009A49;
+}
+
+
+
+/*=========SOCIAL STYLES===========*/
+
+.fa {
+    background-color: rgb(141, 198, 63);
+    border: solid 5px #FFFFFF;
+    font-size: 2em !important;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    padding: 12px;
+    margin: 0px 15px;
 }
 /*
 1200px
